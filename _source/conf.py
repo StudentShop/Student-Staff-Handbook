@@ -47,8 +47,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Student Staff Handbook'
-copyright = u'2015, Student Staff Handbook'
-author = u'Student Staff Handbook'
+copyright = u'2015, Board of Regents of the University of Wisconsin System'
+author = u'Charles Allhands'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -108,7 +108,7 @@ todo_include_todos = False
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -123,7 +123,7 @@ html_theme = 'alabaster'
 #html_title = None
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-#html_short_title = None
+html_short_title = 'Student Staff Handbook'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -146,7 +146,7 @@ html_static_path = ['_static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
-#html_last_updated_fmt = '%b %d, %Y'
+html_last_updated_fmt = '%b %d, %Y'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
@@ -160,10 +160,10 @@ html_static_path = ['_static']
 #html_additional_pages = {}
 
 # If false, no module index is generated.
-#html_domain_indices = True
+html_domain_indices = False
 
 # If false, no index is generated.
-#html_use_index = True
+html_use_index = False
 
 # If true, the index is split into individual pages for each letter.
 #html_split_index = False
@@ -200,7 +200,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'StudentStaffHandbookdoc'
+htmlhelp_basename = 'StaffHandbookdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -222,8 +222,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'StudentStaffHandbook.tex', u'Student Staff Handbook Documentation',
-   u'Student Staff Handbook', 'manual'),
+  (master_doc, 'StudentStaffHandbook.tex', u'Student Staff Handbook',
+   'Charles Allhands', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

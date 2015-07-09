@@ -1,0 +1,21 @@
+.. Student Staff Handbook documentation master file, created by
+   sphinx-quickstart on Thu Jul 09 10:30:29 2015.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Student Staff Handbook
+==================================================
+
+This handbook covers the three semester training program all new student staff must progress through. It is also useful as a reference for general shop policies.
+As training sections are completed they should be signed off by the indivual on their training check off sheet. Some training requires an instructor to also sign off. Each training section will list approved instructors.
+
+.. toctree::
+   :maxdepth: 2
+
+  Welcome
+  Entry
+  Intermediate
+  Advanced
+  Policies
+  Projects
+  Standard Operating Procedures
